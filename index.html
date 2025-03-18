@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <title>Frontend Mentor | Social Links Profile</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: hsl(0, 0%, 8%);
+                margin: 0;
+                padding: 0;
+                font-family: 'Inter';
+                color: #fff;
+            }
+
+            .flex {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .container {
+                width: 100%;
+                height: 100vh;
+                justify-content: center;
+            }
+
+            .card {
+                max-width: 350px;
+                min-width: 300px;
+                width: 90%;
+                background-color: hsl(0, 0%, 12%);
+                border-radius: 1rem;
+            }
+
+            .information {
+                gap: 1rem;
+            }
+            
+            .img {
+                height: 160px;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+
+            img {
+                border-radius: 50%;
+                width: 100%;
+            }
+
+            .links {
+                width: 85%;
+                margin-block: .7rem;
+            }
+
+            .address {
+                color: hsl(75, 94%, 57%);
+            }
+
+            .button {
+                background-color: hsl(0, 0%, 20%);
+                width: 100%;
+                padding-block: .6rem;
+                margin-block: .4rem;
+                border-radius: 5px;
+                box-shadow: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                background-color: hsl(75, 94%, 57%);
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="flex container">
+            <div class="card flex">
+                <div class="img">
+                    <img src="./assets/images/avatar-jessica.jpeg" alt="">
+                </div>
+                <div class="information flex">
+                    <div class="information__title flex">
+                        <h1>Jessica Randall</h1>
+                        <p class="address">London, United Kingdom</p>
+                    </div>
+                    <p class="introduction">"Front-end developer and avid reader"</p>
+                </div>
+                <div class="links flex">
+                    <a class="button flex" href="#">Github</a>
+                    <a class="button flex" href="#">Frontend Mentor</a>
+                    <a class="button flex" href="#">LinkedIn</a>
+                    <a class="button flex" href="#">Twitter</a>
+                    <a class="button flex" href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+</html>
