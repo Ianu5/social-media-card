@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.JPG)
 
 
 ### Links
@@ -43,4 +43,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://ianu5.github.io/Minfolio/)
+- Website - [My Portfolio website](https://ianu5.github.io/Minfolio/)
